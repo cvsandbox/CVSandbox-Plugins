@@ -1,0 +1,11 @@
+*.o
+*.obj
+*.dll
+*.suo
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+*.vcxproj.user
+**/msvc/Debug
+**/msvc/Release

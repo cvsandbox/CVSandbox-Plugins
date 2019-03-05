@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Module Files">
+      <UniqueIdentifier>{25441053-4b98-4aef-9c67-84706fa30770}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Plugin Descriptors">
+      <UniqueIdentifier>{3af7e2bb-f82c-491d-82d2-df78d4c63103}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\dev_phidgets.cpp">
+      <Filter>Source Files\Module Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\dllmain.cpp">
+      <Filter>Source Files\Module Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PhidgetInterfaceKitPlugin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PhidgetInterfaceKitPluginDescriptor.cpp">
+      <Filter>Source Files\Plugin Descriptors</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PhidgetAdvancedServoPlugin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\PhidgetAdvancedServoPluginDescriptor.cpp">
+      <Filter>Source Files\Plugin Descriptors</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\PhidgetInterfaceKitPlugin.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\PhidgetAdvancedServoPlugin.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\plugins_list.txt" />
+  </ItemGroup>
+</Project>
