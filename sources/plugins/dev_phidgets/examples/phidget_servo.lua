@@ -14,7 +14,7 @@ if not servos:Connect( ) then
     error( "Failed connecting to servo board" )
 end
 
--- Check number of suported servos
+-- Check number of supported servos
 motorCount = servos:GetProperty( 'motorCount' )
 
 -- Configure velocity limit, acceleration and position range
